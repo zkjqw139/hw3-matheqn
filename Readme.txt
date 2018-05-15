@@ -1,0 +1,1 @@
+https://nbviewer.jupyter.org/github/zkjqw139/hw3-matheqn/blob/master/Untitled1.ipynb
