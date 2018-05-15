@@ -195,12 +195,12 @@ def main():
  
 def test():
       
-     model=load_model('C:/Users/hasee/Desktop/lstm-sub/my_model.h5')
+     model=load_model('my_model.h5')
      model.summary()
      print()    
      
-     x_train_name="C:/Users/hasee/Desktop/lstm-sub/x_train.txt"
-     y_train_name="C:/Users/hasee/Desktop/lstm-sub/y_train.txt"
+     x_train_name="x_train.txt"
+     y_train_name="y_train.txt"
   
      x=np.loadtxt(x_train_name,dtype='str',delimiter=" ")
      y=np.loadtxt(y_train_name,dtype='str',delimiter=" ")
@@ -265,6 +265,11 @@ def test():
      
     
 if __name__=='__main__':
+    ##train model use
+    ##main()
+    
+    ##test model use
+    ##test()
     test() 
     
     
